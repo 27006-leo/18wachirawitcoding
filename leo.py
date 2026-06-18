@@ -1,12 +1,22 @@
-print("โปรแกรมเลขคู่หรือเลขคี่กันนะ")
-number = int(int("Enter your number: "))
+point1 = int (input("คะเเนนวิชา1: "))
+point2 = int (input("คะเเนนวิชา2: "))
+point3 = int (input("คะเเนนวิชา3: "))
 
-if number % 2 = 0:
-   
-   print("ตัวเลขนี้เป็นเลขคู่")
+
+total_point = point1 + point2 + point3
+average = total_point/3
+if average < 60:
+    print("คะเเนนรวมของคุณ = ", total_point)
+    print("คะเเนนเฉลี่ย 3 วิชา = ", average)
+    print("ควรปรับปรุง")
+elif average < 80:
+    print("ผ่าน")
+
+
 
 else:
-   
-   print("ตัวเลขตัวนี้เป็นเลขคี่")
 
-print("จัดทําโดย 4/4 เลขที่18")
+
+
+    print("ดีเยี่ยม")
+
