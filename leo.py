@@ -1,17 +1,12 @@
-print("โปรเเกรมคํานวณคะเเนนรวม")
+print("ความเร็วรถ")
 
-point1 = int(input("คะเเนนวิชาคณิตศาสตร์"))
-point2 = int(input("คะเเนนวิชาอังกฤษ"))
-point3 = int(input("คะเเนนวิชาชีวะ"))
+speed = int(input("ความเร็วรถ"))
 
-total_point = point1 + point2 + point3
-print("คะแนนรวม, total_point")
-average = total_point / 3
-print("คะแนนเฉลี่ยทั้ง3วิชา",average)
-
-if average >=80:
-   print("ดีเยี่ยม")
-elif average >=60:
-   print("ผ่าน")
+if speed <= 80:
+    print("ปลอดภัย")
+elif speed <= 100:
+    print("เตือน")
+elif speed <= 120:
+    print("เสี่ยงถูกปรับ")
 else:
-   print("ควรปรับปรุง")
+    print("ผิดกฏหมาย")
