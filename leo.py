@@ -1,12 +1,12 @@
-print("ความเร็วรถ")
-
-speed = int(input("ความเร็วรถ"))
-
-if speed <= 80:
-    print("ปลอดภัย")
-elif speed <= 100:
-    print("เตือน")
-elif speed <= 120:
-    print("เสี่ยงถูกปรับ")
+import random
+number = random(1,100)
+n =0
+print ("ทาย")
+while n!= number:
+    n = int(input("ทาย:"))
+if n < number:
+    print("น้อยเกินไป")
+elif n<number:
+    print("มากเกินไป")
 else:
-    print("ผิดกฏหมาย")
+    print("ถูกต้อง")
